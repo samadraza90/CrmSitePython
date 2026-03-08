@@ -1,2 +1,2 @@
-cd C:\Samad\Robot-FW\CrmSitePython
+cd C:\Samad\Robot_Framework\CrmSitePython
 robot -d Results Tests\Crm.robot
