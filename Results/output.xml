@@ -1,312 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.12 on win32)" generated="2026-03-08T23:08:36.827923" rpa="false" schemaversion="5">
-<suite id="s1" name="Crm" source="C:\Samad\Robot-FW\PythonProject\tests\crm.robot">
+<robot generator="Robot 7.3.2 (Python 3.13.12 on win32)" generated="2026-03-08T23:25:45.986775" rpa="false" schemaversion="5">
+<suite id="s1" name="Crm" source="C:\Samad\Robot-FW\CrmSitePython\Tests\Crm.robot">
 <test id="s1-t1" name="LogIn" line="20">
 <kw name="Begin Web Test" owner="Common" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:37.639367" level="INFO">Opening browser 'headlesschrome' to base url 'about:Blank'.</msg>
+<msg time="2026-03-08T23:25:46.726191" level="INFO">Opening browser 'headlesschrome' to base url 'about:Blank'.</msg>
 <arg>about:Blank</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-08T23:08:37.638914" elapsed="3.966641"/>
+<status status="PASS" start="2026-03-08T23:25:46.725657" elapsed="3.331810"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-03-08T23:08:41.605978" elapsed="0.038786"/>
+<status status="PASS" start="2026-03-08T23:25:50.058073" elapsed="0.038385"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:37.637653" elapsed="4.007389"/>
+<status status="PASS" start="2026-03-08T23:25:46.724513" elapsed="3.372150"/>
 </kw>
 <kw name="Open Webpage" owner="CRMsite">
 <kw name="Load Page" owner="Landingpage">
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:41.647526" level="INFO">Opening url 'https://automationplayground.com/crm'</msg>
+<msg time="2026-03-08T23:25:50.098541" level="INFO">Opening url 'https://automationplayground.com/crm'</msg>
 <arg>${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2026-03-08T23:08:41.647215" elapsed="2.368559"/>
+<status status="PASS" start="2026-03-08T23:25:50.098337" elapsed="1.869532"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:41.646596" elapsed="2.369445"/>
+<status status="PASS" start="2026-03-08T23:25:50.097991" elapsed="1.870162"/>
 </kw>
 <kw name="Verify Page Loaded" owner="Landingpage">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:44.047397" level="INFO">Current page contains text 'Customers Are Priority One!'.</msg>
+<msg time="2026-03-08T23:25:52.000246" level="INFO">Current page contains text 'Customers Are Priority One!'.</msg>
 <arg>Customers Are Priority One!</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2026-03-08T23:08:44.017032" elapsed="0.030543"/>
+<status status="PASS" start="2026-03-08T23:25:51.969206" elapsed="0.031215"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:44.016438" elapsed="0.031297"/>
+<status status="PASS" start="2026-03-08T23:25:51.968551" elapsed="0.032186"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:41.645861" elapsed="2.402006"/>
+<status status="PASS" start="2026-03-08T23:25:50.097460" elapsed="1.903367"/>
 </kw>
 <kw name="LogIn" owner="CRMsite">
 <kw name="Signin" owner="Navbar">
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:44.050568" level="INFO">Clicking link 'xpath=//*[text()="Sign In"]'.</msg>
+<msg time="2026-03-08T23:25:52.003078" level="INFO">Clicking link 'xpath=//*[text()="Sign In"]'.</msg>
 <arg>${SignInLink}</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:44.049829" elapsed="0.851099"/>
+<status status="PASS" start="2026-03-08T23:25:52.002518" elapsed="0.885017"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:44.049374" elapsed="0.851831"/>
+<status status="PASS" start="2026-03-08T23:25:52.002222" elapsed="0.885506"/>
 </kw>
 <kw name="Verify Signin Page" owner="Navbar">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:44.932072" level="INFO">Current page contains text 'Login'.</msg>
+<msg time="2026-03-08T23:25:52.916819" level="INFO">Current page contains text 'Login'.</msg>
 <arg>Login</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2026-03-08T23:08:44.902269" elapsed="0.030019"/>
+<status status="PASS" start="2026-03-08T23:25:52.888467" elapsed="0.028594"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:44.901661" elapsed="0.030810"/>
+<status status="PASS" start="2026-03-08T23:25:52.888026" elapsed="0.029217"/>
 </kw>
 <kw name="Input Creds" owner="LoginPage">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:44.933788" level="INFO">Typing text 'samad@vmware.com' into text field 'id=email-id'.</msg>
+<msg time="2026-03-08T23:25:52.918517" level="INFO">Typing text 'samad@vmware.com' into text field 'id=email-id'.</msg>
 <arg>${EmailInput}</arg>
 <arg>${Email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:44.933375" elapsed="0.198108"/>
+<status status="PASS" start="2026-03-08T23:25:52.918124" elapsed="0.218828"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:45.132437" level="INFO">Typing text 'Samad@7203v12' into text field 'xpath=//*[@id="password"]'.</msg>
+<msg time="2026-03-08T23:25:53.137748" level="INFO">Typing text 'Samad@7203v12' into text field 'xpath=//*[@id="password"]'.</msg>
 <arg>${PassInput}</arg>
 <arg>${Password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:45.131881" elapsed="0.201105"/>
+<status status="PASS" start="2026-03-08T23:25:53.137289" elapsed="0.218153"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:44.932844" elapsed="0.400342"/>
+<status status="PASS" start="2026-03-08T23:25:52.917641" elapsed="0.438001"/>
 </kw>
 <kw name="Submit Login" owner="LoginPage">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:45.334635" level="INFO">Clicking button 'id=submit-id'.</msg>
+<msg time="2026-03-08T23:25:53.356947" level="INFO">Clicking button 'id=submit-id'.</msg>
 <arg>id=submit-id</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:45.334161" elapsed="0.461776"/>
+<status status="PASS" start="2026-03-08T23:25:53.356633" elapsed="0.491424"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:45.333506" elapsed="0.462719"/>
+<status status="PASS" start="2026-03-08T23:25:53.355942" elapsed="0.492366"/>
 </kw>
 <kw name="Verify Login" owner="LoginPage">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Our Happy Customers</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-03-08T23:08:45.797632" elapsed="0.177716"/>
+<status status="PASS" start="2026-03-08T23:25:53.849375" elapsed="0.146635"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:45.796722" elapsed="0.178845"/>
+<status status="PASS" start="2026-03-08T23:25:53.848687" elapsed="0.147521"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:44.048657" elapsed="1.927001"/>
+<status status="PASS" start="2026-03-08T23:25:52.001689" elapsed="1.994602"/>
 </kw>
 <kw name="End Web Test" owner="Common" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-08T23:08:45.977345" elapsed="2.529227"/>
+<status status="PASS" start="2026-03-08T23:25:53.997580" elapsed="2.476711"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:45.976666" elapsed="2.530128"/>
+<status status="PASS" start="2026-03-08T23:25:53.997081" elapsed="2.477523"/>
 </kw>
 <doc>This some basic Info about suite</doc>
 <tag>Signin</tag>
-<status status="PASS" start="2026-03-08T23:08:37.636065" elapsed="10.871174"/>
+<status status="PASS" start="2026-03-08T23:25:46.722306" elapsed="9.752794"/>
 </test>
 <test id="s1-t2" name="Customer creation" line="26">
 <kw name="Begin Web Test" owner="Common" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:48.510577" level="INFO">Opening browser 'headlesschrome' to base url 'about:Blank'.</msg>
+<msg time="2026-03-08T23:25:56.479803" level="INFO">Opening browser 'headlesschrome' to base url 'about:Blank'.</msg>
 <arg>about:Blank</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-08T23:08:48.510195" elapsed="3.664999"/>
+<status status="PASS" start="2026-03-08T23:25:56.479126" elapsed="3.349424"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-03-08T23:08:52.175612" elapsed="0.038081"/>
+<status status="PASS" start="2026-03-08T23:25:59.828836" elapsed="0.037303"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:48.509587" elapsed="3.704376"/>
+<status status="PASS" start="2026-03-08T23:25:56.478455" elapsed="3.387844"/>
 </kw>
 <kw name="Open Webpage" owner="CRMsite">
 <kw name="Load Page" owner="Landingpage">
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:52.216131" level="INFO">Opening url 'https://automationplayground.com/crm'</msg>
+<msg time="2026-03-08T23:25:59.867943" level="INFO">Opening url 'https://automationplayground.com/crm'</msg>
 <arg>${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2026-03-08T23:08:52.215870" elapsed="1.922096"/>
+<status status="PASS" start="2026-03-08T23:25:59.867735" elapsed="1.169901"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:52.215473" elapsed="1.922752"/>
+<status status="PASS" start="2026-03-08T23:25:59.867383" elapsed="1.170548"/>
 </kw>
 <kw name="Verify Page Loaded" owner="Landingpage">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:54.169356" level="INFO">Current page contains text 'Customers Are Priority One!'.</msg>
+<msg time="2026-03-08T23:26:01.661267" level="INFO">Current page contains text 'Customers Are Priority One!'.</msg>
 <arg>Customers Are Priority One!</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2026-03-08T23:08:54.139180" elapsed="0.030393"/>
+<status status="PASS" start="2026-03-08T23:26:01.038960" elapsed="0.622482"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:54.138637" elapsed="0.031238"/>
+<status status="PASS" start="2026-03-08T23:26:01.038275" elapsed="0.623390"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:52.214834" elapsed="1.955182"/>
+<status status="PASS" start="2026-03-08T23:25:59.866873" elapsed="1.794905"/>
 </kw>
 <kw name="LogIn" owner="CRMsite">
 <kw name="Signin" owner="Navbar">
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:54.172156" level="INFO">Clicking link 'xpath=//*[text()="Sign In"]'.</msg>
+<msg time="2026-03-08T23:26:01.663655" level="INFO">Clicking link 'xpath=//*[text()="Sign In"]'.</msg>
 <arg>${SignInLink}</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:54.171650" elapsed="0.802110"/>
+<status status="PASS" start="2026-03-08T23:26:01.663258" elapsed="0.830725"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:54.171325" elapsed="0.802621"/>
+<status status="PASS" start="2026-03-08T23:26:01.662894" elapsed="0.831239"/>
 </kw>
 <kw name="Verify Signin Page" owner="Navbar">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:55.001050" level="INFO">Current page contains text 'Login'.</msg>
+<msg time="2026-03-08T23:26:02.516526" level="INFO">Current page contains text 'Login'.</msg>
 <arg>Login</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2026-03-08T23:08:54.974881" elapsed="0.026348"/>
+<status status="PASS" start="2026-03-08T23:26:02.494721" elapsed="0.021971"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:54.974329" elapsed="0.027054"/>
+<status status="PASS" start="2026-03-08T23:26:02.494377" elapsed="0.022490"/>
 </kw>
 <kw name="Input Creds" owner="LoginPage">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:55.002450" level="INFO">Typing text 'samad@vmware.com' into text field 'id=email-id'.</msg>
+<msg time="2026-03-08T23:26:02.518057" level="INFO">Typing text 'samad@vmware.com' into text field 'id=email-id'.</msg>
 <arg>${EmailInput}</arg>
 <arg>${Email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:55.002106" elapsed="0.203837"/>
+<status status="PASS" start="2026-03-08T23:26:02.517652" elapsed="0.165813"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:55.206960" level="INFO">Typing text 'Samad@7203v12' into text field 'xpath=//*[@id="password"]'.</msg>
+<msg time="2026-03-08T23:26:02.684044" level="INFO">Typing text 'Samad@7203v12' into text field 'xpath=//*[@id="password"]'.</msg>
 <arg>${PassInput}</arg>
 <arg>${Password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:55.206356" elapsed="0.232214"/>
+<status status="PASS" start="2026-03-08T23:26:02.683713" elapsed="0.165718"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:55.001681" elapsed="0.437167"/>
+<status status="PASS" start="2026-03-08T23:26:02.517200" elapsed="0.332387"/>
 </kw>
 <kw name="Submit Login" owner="LoginPage">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:55.439957" level="INFO">Clicking button 'id=submit-id'.</msg>
+<msg time="2026-03-08T23:26:02.850396" level="INFO">Clicking button 'id=submit-id'.</msg>
 <arg>id=submit-id</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:55.439622" elapsed="0.472824"/>
+<status status="PASS" start="2026-03-08T23:26:02.850167" elapsed="0.150789"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:55.439182" elapsed="0.473632"/>
+<status status="PASS" start="2026-03-08T23:26:02.849833" elapsed="0.151366"/>
 </kw>
 <kw name="Verify Login" owner="LoginPage">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Our Happy Customers</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-03-08T23:08:55.914372" elapsed="0.194315"/>
+<status status="PASS" start="2026-03-08T23:26:03.002118" elapsed="0.425808"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:55.913537" elapsed="0.195352"/>
+<status status="PASS" start="2026-03-08T23:26:03.001568" elapsed="0.426514"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:54.170810" elapsed="1.938161"/>
+<status status="PASS" start="2026-03-08T23:26:01.662394" elapsed="1.765765"/>
 </kw>
 <kw name="Create New Customer" owner="CRMsite">
 <kw name="New Customer" owner="LoginPage">
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:56.110799" level="INFO">Clicking link 'New Customer'.</msg>
+<msg time="2026-03-08T23:26:03.429823" level="INFO">Clicking link 'New Customer'.</msg>
 <arg>New Customer</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:56.110540" elapsed="0.735152"/>
+<status status="PASS" start="2026-03-08T23:26:03.429608" elapsed="0.669982"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:56.110246" elapsed="0.735648"/>
+<status status="PASS" start="2026-03-08T23:26:03.429325" elapsed="0.670455"/>
 </kw>
 <kw name="Verify Add Customer Page" owner="Newcustomer">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:56.875160" level="INFO">Current page contains text 'Add Customer'.</msg>
+<msg time="2026-03-08T23:26:04.127140" level="INFO">Current page contains text 'Add Customer'.</msg>
 <arg>Add Customer</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2026-03-08T23:08:56.846736" elapsed="0.028636"/>
+<status status="PASS" start="2026-03-08T23:26:04.100491" elapsed="0.026908"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:56.846218" elapsed="0.029336"/>
+<status status="PASS" start="2026-03-08T23:26:04.100075" elapsed="0.027507"/>
 </kw>
 <kw name="Input Customer Details" owner="Newcustomer">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:56.876769" level="INFO">Typing text 'admin@gmail.com' into text field 'id=EmailAddress'.</msg>
+<msg time="2026-03-08T23:26:04.128699" level="INFO">Typing text 'admin@gmail.com' into text field 'id=EmailAddress'.</msg>
 <arg>id=EmailAddress</arg>
 <arg>admin@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:56.876451" elapsed="0.171880"/>
+<status status="PASS" start="2026-03-08T23:26:04.128407" elapsed="0.185738"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.049065" level="INFO">Typing text 'admin' into text field 'id=FirstName'.</msg>
+<msg time="2026-03-08T23:26:04.314779" level="INFO">Typing text 'admin' into text field 'id=FirstName'.</msg>
 <arg>id=FirstName</arg>
 <arg>admin</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.048689" elapsed="0.176984"/>
+<status status="PASS" start="2026-03-08T23:26:04.314459" elapsed="0.179874"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.226448" level="INFO">Typing text 'Khan' into text field 'id=LastName'.</msg>
+<msg time="2026-03-08T23:26:04.495445" level="INFO">Typing text 'Khan' into text field 'id=LastName'.</msg>
 <arg>id=LastName</arg>
 <arg>Khan</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.226105" elapsed="0.144964"/>
+<status status="PASS" start="2026-03-08T23:26:04.494825" elapsed="0.170697"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.371607" level="INFO">Typing text 'NewYork' into text field 'id=City'.</msg>
+<msg time="2026-03-08T23:26:04.666232" level="INFO">Typing text 'NewYork' into text field 'id=City'.</msg>
 <arg>id=City</arg>
 <arg>NewYork</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.371329" elapsed="0.148375"/>
+<status status="PASS" start="2026-03-08T23:26:04.665909" elapsed="0.173780"/>
 </kw>
 <kw name="Select From List By Value" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.520283" level="INFO">Selecting options from selection list 'id=StateOrRegion' by value FL.</msg>
+<msg time="2026-03-08T23:26:04.840400" level="INFO">Selecting options from selection list 'id=StateOrRegion' by value FL.</msg>
 <arg>id=StateOrRegion</arg>
 <arg>FL</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.519970" elapsed="0.127787"/>
+<status status="PASS" start="2026-03-08T23:26:04.840078" elapsed="0.133918"/>
 </kw>
 <kw name="Select Radio Button" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.648242" level="INFO">Selecting 'male' from radio button 'gender'.</msg>
+<msg time="2026-03-08T23:26:04.974525" level="INFO">Selecting 'male' from radio button 'gender'.</msg>
 <arg>gender</arg>
 <arg>male</arg>
 <doc>Sets the radio button group ``group_name`` to ``value``.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.648026" elapsed="0.149339"/>
+<status status="PASS" start="2026-03-08T23:26:04.974264" elapsed="0.158552"/>
 </kw>
 <kw name="Execute Javascript" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.798513" level="INFO">Executing JavaScript:
+<msg time="2026-03-08T23:26:05.134056" level="INFO">Executing JavaScript:
 window.scrollBy(0,400)
 Without any arguments.</msg>
 <arg>window.scrollBy(0,400)</arg>
 <doc>Executes the given JavaScript code with possible arguments.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.797719" elapsed="0.011574"/>
+<status status="PASS" start="2026-03-08T23:26:05.133182" elapsed="0.012018"/>
 </kw>
 <kw name="Select Checkbox" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.809803" level="INFO">Selecting checkbox 'name=promos-name'.</msg>
+<msg time="2026-03-08T23:26:05.145705" level="INFO">Selecting checkbox 'name=promos-name'.</msg>
 <arg>name=promos-name</arg>
 <doc>Selects the checkbox identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.809539" elapsed="0.187398"/>
+<status status="PASS" start="2026-03-08T23:26:05.145446" elapsed="0.164155"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:56.875950" elapsed="1.121201"/>
+<status status="PASS" start="2026-03-08T23:26:04.127923" elapsed="1.181837"/>
 </kw>
 <kw name="Submit New Customer Details" owner="Newcustomer">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-03-08T23:08:57.998186" level="INFO">Clicking button 'Submit'.</msg>
+<msg time="2026-03-08T23:26:05.310564" level="INFO">Clicking button 'Submit'.</msg>
 <arg>Submit</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-08T23:08:57.997916" elapsed="0.552223"/>
+<status status="PASS" start="2026-03-08T23:26:05.310349" elapsed="0.525556"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:57.997494" elapsed="0.552867"/>
+<status status="PASS" start="2026-03-08T23:26:05.310010" elapsed="0.526204"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:56.109779" elapsed="2.440679"/>
+<status status="PASS" start="2026-03-08T23:26:03.428850" elapsed="2.407470"/>
 </kw>
 <kw name="Verify New Customer created" owner="CRMsite">
 <kw name="Verify New Customer Created" owner="Newcustomer">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Success! New customer added.</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-03-08T23:08:58.552612" elapsed="0.057100"/>
+<status status="PASS" start="2026-03-08T23:26:05.839197" elapsed="0.089318"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:58.551889" elapsed="0.058127"/>
+<status status="PASS" start="2026-03-08T23:26:05.838521" elapsed="0.090237"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:58.551077" elapsed="0.059036"/>
+<status status="PASS" start="2026-03-08T23:26:05.837261" elapsed="0.091581"/>
 </kw>
 <kw name="End Web Test" owner="Common" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-08T23:08:58.612324" elapsed="2.429007"/>
+<status status="PASS" start="2026-03-08T23:26:05.930088" elapsed="2.507142"/>
 </kw>
-<status status="PASS" start="2026-03-08T23:08:58.611244" elapsed="2.430503"/>
+<status status="PASS" start="2026-03-08T23:26:05.929610" elapsed="2.508009"/>
 </kw>
 <doc>This some basic Info about suite</doc>
 <tag>Addcustomer</tag>
-<status status="PASS" start="2026-03-08T23:08:48.508466" elapsed="12.534465"/>
+<status status="PASS" start="2026-03-08T23:25:56.476931" elapsed="11.961265"/>
 </test>
 <doc>This is some basic info about the suite</doc>
-<status status="PASS" start="2026-03-08T23:08:36.834685" elapsed="24.209660"/>
+<status status="PASS" start="2026-03-08T23:25:45.993288" elapsed="22.446536"/>
 </suite>
 <statistics>
 <total>
