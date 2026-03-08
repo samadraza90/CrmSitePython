@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-07-31T23:43:32.057509" rpa="false" schemaversion="5">
+<suite id="s1" name="Amazon" source="C:\Samad\Robot-FW\PythonProject\tests\Amazon.robot">
+<test id="s1-t1" name="Amazon" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-07-31T23:43:33.211096" level="INFO">Opening browser 'chrome' to base url 'about:Blank'.</msg>
+<arg>about:Blank</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-07-31T23:43:33.210613" elapsed="7.057934"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-07-31T23:43:40.270210" elapsed="0.052112"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-07-31T23:43:40.323174" level="INFO">Opening url 'https://www.amazon.com'</msg>
+<arg>https://www.amazon.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-07-31T23:43:40.322902" elapsed="0.441466"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-07-31T23:43:42.766425" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-07-31T23:43:40.765021" elapsed="2.001744"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-07-31T23:43:42.771986" elapsed="2.466873"/>
+</kw>
+<status status="PASS" start="2025-07-31T23:43:33.207705" elapsed="12.032018"/>
+</test>
+<status status="PASS" start="2025-07-31T23:43:32.063209" elapsed="13.178565"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Amazon" id="s1" pass="1" fail="0" skip="0">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

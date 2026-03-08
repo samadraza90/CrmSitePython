@@ -1,0 +1,23 @@
+1753269101433	geckodriver	INFO	Listening on 127.0.0.1:61830
+1753269101976	mozrunner::runner	INFO	Running command: "C:\\Users\\samakhan\\.cache\\selenium\\firefox\\win64\\141.0\\firefox.exe" "--marionette" "--remote-debuggi ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\samakhan\\AppData\\Local\\Temp\\rust_mozprofile7LABhl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753269103090	Marionette	INFO	Marionette enabled
+1753269103391	Marionette	INFO	Listening on port 61900
+Read port: 61900
+WebDriver BiDi listening on ws://127.0.0.1:61831
+1753269103529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+console.error: ({details:{id:"9cee02bd-bc7a-cacc-333f-61dbc4575260", last_modified:1753213325774, bucket:"main", collection:"translations-models", host:"firefox.settings.services.mozilla.com"}})
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-NGEFJL0H65, line 205: Script terminated by timeout at:
+tb@https://www.googletagmanager.com/gtag/js?id=G-NGEFJL0H65:205:159
+VF@https://www.googletagmanager.com/gtag/js?id=G-NGEFJL0H65:723:135
+WF/<@https://www.googletagmanager.com/gtag/js?id=G-NGEFJL0H65:723:111
+
+1753269173224	Marionette	INFO	Stopped listening on port 61900
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+Exiting due to channel error.

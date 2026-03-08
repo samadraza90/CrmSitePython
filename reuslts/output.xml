@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.9 on win32)" generated="2026-01-27T19:24:10.755699" rpa="false" schemaversion="5">
+<suite id="s1" name="Crm" source="C:\Samad\Robot-FW\PythonProject\tests\crm.robot">
+<test id="s1-t1" name="LogIn" line="20">
+<kw name="Begin Web Test" owner="Common" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-27T19:24:11.213562" level="INFO">Opening browser 'edge' to base url 'about:Blank'.</msg>
+<msg time="2026-01-27T19:24:13.049896" level="WARN">The msedgedriver version (138.0.3351.95) detected in PATH at C:\WebDriver\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (144.0.3719.92); currently, msedgedriver 144.0.3719.92 is recommended for MicrosoftEdge 144.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2026-01-27T19:24:17.396655" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2026-01-27T19:24:17.396890" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</msg>
+<arg>about:Blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2026-01-27T19:24:11.213340" elapsed="6.198825">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2026-01-27T19:24:17.412416" elapsed="0.000035"/>
+</kw>
+<status status="FAIL" start="2026-01-27T19:24:11.212673" elapsed="6.199915">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</status>
+</kw>
+<kw name="End Web Test" owner="Common" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-27T19:24:17.413950" elapsed="0.000147"/>
+</kw>
+<status status="PASS" start="2026-01-27T19:24:17.413445" elapsed="0.000711"/>
+</kw>
+<doc>This some basic Info about suite</doc>
+<tag>Signin</tag>
+<status status="FAIL" start="2026-01-27T19:24:11.211844" elapsed="6.202560">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</status>
+</test>
+<test id="s1-t2" name="Customer creation" line="26">
+<kw name="Begin Web Test" owner="Common" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-27T19:24:17.416019" level="INFO">Opening browser 'edge' to base url 'about:Blank'.</msg>
+<msg time="2026-01-27T19:24:17.955025" level="WARN">The msedgedriver version (138.0.3351.95) detected in PATH at C:\WebDriver\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (144.0.3719.92); currently, msedgedriver 144.0.3719.92 is recommended for MicrosoftEdge 144.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2026-01-27T19:24:21.827430" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2026-01-27T19:24:21.827734" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</msg>
+<arg>about:Blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2026-01-27T19:24:17.415835" elapsed="4.415145">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2026-01-27T19:24:21.831308" elapsed="0.000046"/>
+</kw>
+<status status="FAIL" start="2026-01-27T19:24:17.415612" elapsed="4.415895">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</status>
+</kw>
+<kw name="End Web Test" owner="Common" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-27T19:24:21.832966" elapsed="0.000122"/>
+</kw>
+<status status="PASS" start="2026-01-27T19:24:21.832659" elapsed="0.000491"/>
+</kw>
+<doc>This some basic Info about suite</doc>
+<tag>Addcustomer</tag>
+<status status="FAIL" start="2026-01-27T19:24:17.415190" elapsed="4.418181">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 138
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff750c58c85+23461]
+	(No symbol) [0x0x7ff750bacd70]
+	GetHandleVerifier [0x0x7ff750ed0bb8+2611928]
+	(No symbol) [0x0x7ff7509bb51d]
+	(No symbol) [0x0x7ff7509ba8df]
+	(No symbol) [0x0x7ff7509b67b1]
+	(No symbol) [0x0x7ff7509b1045]
+	(No symbol) [0x0x7ff7509f5a92]
+	(No symbol) [0x0x7ff7509ea423]
+	(No symbol) [0x0x7ff7509bea86]
+	(No symbol) [0x0x7ff7509bdd11]
+	(No symbol) [0x0x7ff7509be8b3]
+	(No symbol) [0x0x7ff750abe6fd]
+	(No symbol) [0x0x7ff750acba88]
+	GetHandleVerifier [0x0x7ff750d38acb+940523]
+	GetHandleVerifier [0x0x7ff750d41821+976705]
+	(No symbol) [0x0x7ff750bba961]
+	(No symbol) [0x0x7ff750bb3344]
+	(No symbol) [0x0x7ff750bb3493]
+	(No symbol) [0x0x7ff750ba4f36]
+	BaseThreadInitThunk [0x0x7ff84a87e8d7+23]
+	RtlUserThreadStart [0x0x7ff84ba4c53c+44]
+</status>
+</test>
+<doc>This is some basic info about the suite</doc>
+<status status="FAIL" start="2026-01-27T19:24:10.758982" elapsed="11.075319"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Addcustomer</stat>
+<stat pass="0" fail="1" skip="0">Signin</stat>
+</tag>
+<suite>
+<stat name="Crm" id="s1" pass="0" fail="2" skip="0">Crm</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-01-27T19:24:13.049896" level="WARN">The msedgedriver version (138.0.3351.95) detected in PATH at C:\WebDriver\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (144.0.3719.92); currently, msedgedriver 144.0.3719.92 is recommended for MicrosoftEdge 144.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2026-01-27T19:24:17.955025" level="WARN">The msedgedriver version (138.0.3351.95) detected in PATH at C:\WebDriver\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (144.0.3719.92); currently, msedgedriver 144.0.3719.92 is recommended for MicrosoftEdge 144.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
