@@ -12,7 +12,7 @@ Test Teardown    End Web Test
 #robot -d results -i Smoke tests        -- Using Tag
 
 *** Variables ***
-${BROWSER} =    headlesschrome
+${BROWSER} =    chrome
 ${Email} =      samad@vmware.com
 ${Password} =   Samad@7203v12
 ${URL} =        https://automationplayground.com/crm
